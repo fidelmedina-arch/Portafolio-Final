@@ -1,0 +1,35 @@
+.about {
+  padding-top: 135px;
+  padding-bottom: 135px;
+  display: grid;
+  grid-template-columns: .85fr 1.15fr;
+  gap: 10%;
+  background: #fff;
+}
+.about-content {
+  padding-top: 38px;
+  max-width: 620px;
+}
+.about-content p {
+  font-size: 14px;
+  line-height: 1.9;
+  color: #748196;
+}
+.about-content .lead {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #142640;
+  margin-top: 0;
+}
+.skill-list {
+  display: flex;
+  gap: 9px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.skill-list span {
+  font: 10px var(--mono);
+  padding: 10px 13px;
+  border: 1px solid var(--line);
+  color: #526176;
+}

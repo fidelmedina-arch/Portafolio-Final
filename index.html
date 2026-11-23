@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071a35">
+  <meta name="description" content="Portafolio personal de Fidel Joel Medina Espinoza, estudiante de Diseño y Desarrollo de Software.">
+  <title>Fidel Medina | Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/inicio.css">
+  <link rel="stylesheet" href="css/nosotros.css">
+  <link rel="stylesheet" href="css/galeria.css">
+  <link rel="stylesheet" href="css/testimonios.css">
+  <link rel="stylesheet" href="css/contacto.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@5/dist/email.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Portafolio, ir al inicio"><span>PORTAFOLIO<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú"><span></span><span></span></button>
+    <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a><a href="#nosotros">Nosotros</a><a href="#galeria">Galería</a><a href="#testimonios">Testimonios</a><a class="nav-contact" href="#contacto">Contacto <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> ESTUDIANTE · DESARROLLO DE SOFTWARE</p>
+        <h1>Hola, soy<br><span>Fidel Medina.</span></h1>
+        <p class="hero-text">Soy desarrollador junior y sigo aprendiendo sobre programación. He diseñado algunas páginas web y actualmente avanzo en un proyecto de gestión para veterinarias.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#galeria">Ver proyectos <span>↘</span></a><a class="text-link" href="#contacto">Hablemos <span>↗</span></a></div>
+        <div class="hero-meta"><span>01 / PORTAFOLIO PERSONAL</span><span>HECHO CON CURIOSIDAD <b>✳</b></span></div>
+      </div>
+      <div class="hero-art" aria-label="Composición gráfica sobre diseño y código">
+        <div class="art-grid"></div><div class="art-ring ring-one"></div><div class="art-ring ring-two"></div>
+        <div class="art-core"><small>DISEÑO<br>& CÓDIGO</small></div>
+        <div class="art-tag tag-top">LIMA, PERÚ <span>↗</span></div><div class="art-tag tag-bottom">APRENDIENDO<br>Y CONSTRUYENDO</div>
+        <span class="art-cross cross-a">+</span><span class="art-cross cross-b">+</span>
+      </div>
+      <a class="scroll-cue" href="#nosotros"><span></span> DESLIZA PARA EXPLORAR</a>
+    </section>
+
+    <section class="about section-wrap" id="nosotros">
+      <div class="section-heading"><p class="eyebrow">01 — SOBRE MÍ</p><h2>Aprender.<br><span>Crear. Mejorar.</span></h2></div>
+      <div class="about-content"><p class="lead">Soy alumno de segundo ciclo de Diseño y Desarrollo de Software. Actualmente me encuentro desarrollando un formulario para la parte teórica del curso Interfaces Avanzadas.</p><p>Me interesa seguir creciendo en el ámbito de la programación, explorar nuevas herramientas y convertir ideas en experiencias digitales claras y útiles.</p><div class="skill-list"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Python</span><span>Java</span><span>Diseño web</span></div></div>
+    </section>
+
+    <section class="gallery section-wrap" id="galeria">
+      <div class="section-top"><div><p class="eyebrow">02 — TRABAJOS</p><h2>Galería<span class="blue-period">.</span></h2></div><p class="section-note">Seis espacios para mostrar<br>páginas y proyectos web.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-a"><div class="project-visual"><iframe class="project-preview" src="boton.html" title="Vista previa de Proyecto 01" loading="lazy" sandbox tabindex="-1" aria-hidden="true"></iframe><span class="visual-label">WEB / 001</span><span class="visual-number">01</span></div><div class="project-caption"><h3>Proyecto 01</h3><a href="boton.html">Abrir página ↗</a></div></article>
+        <article class="project-card project-b"><div class="project-visual"><iframe class="project-preview" src="boton.html" title="Vista previa de Proyecto 02" loading="lazy" sandbox tabindex="-1" aria-hidden="true"></iframe><span class="visual-label">WEB / 002</span><span class="visual-number">02</span></div><div class="project-caption"><h3>Proyecto 02</h3><a href="boton.html">Abrir página ↗</a></div></article>
+        <article class="project-card project-c"><div class="project-visual"><iframe class="project-preview" src="boton.html" title="Vista previa de Proyecto 03" loading="lazy" sandbox tabindex="-1" aria-hidden="true"></iframe><span class="visual-label">WEB / 003</span><span class="visual-number">03</span></div><div class="project-caption"><h3>Proyecto 03</h3><a href="boton.html">Abrir página ↗</a></div></article>
+        <article class="project-card project-d"><div class="project-visual"><iframe class="project-preview" src="lorem.html" title="Vista previa de Proyecto 04" loading="lazy" sandbox tabindex="-1" aria-hidden="true"></iframe><span class="visual-label">WEB / 004</span><span class="visual-number">04</span></div><div class="project-caption"><h3>Proyecto 04</h3><a href="lorem.html">Abrir página ↗</a></div></article>
+        <article class="project-card project-e"><div class="project-visual"><iframe class="project-preview" src="lorem.html" title="Vista previa de Proyecto 05" loading="lazy" sandbox tabindex="-1" aria-hidden="true"></iframe><span class="visual-label">WEB / 005</span><span class="visual-number">05</span></div><div class="project-caption"><h3>Proyecto 05</h3><a href="lorem.html">Abrir página ↗</a></div></article>
+        <article class="project-card project-f"><div class="project-visual"><iframe class="project-preview" src="lorem.html" title="Vista previa de Proyecto 06" loading="lazy" sandbox tabindex="-1" aria-hidden="true"></iframe><span class="visual-label">WEB / 006</span><span class="visual-number">06</span></div><div class="project-caption"><h3>Proyecto 06</h3><a href="lorem.html">Abrir página ↗</a></div></article>
+      </div>
+    </section>
+
+    <section class="testimonials section-wrap" id="testimonios">
+      <div class="section-top"><div><p class="eyebrow">03 — VOCES CERCANAS</p><h2>Testimonios<span class="blue-period">.</span></h2></div><p class="section-note">Comentarios de personas que han compartido su experiencia.</p></div>
+      <div class="quote-grid">
+        <article class="quote-card"><span class="quote-mark">“</span><p>Es un alumno con muchas ganas de aprender lenguajes de programación y que se adapta a distintos tipos de software.</p><div class="quote-by"><span class="avatar">MP</span><span><strong>Miguel Pallin</strong><small>Docente</small></span></div></article>
+
+        <article class="quote-card"><span class="quote-mark">“</span><p>Fidel demuestra interés por aprender y participar. Se esfuerza por mejorar sus ideas y llevarlas a la práctica.</p><div class="quote-by"><span class="avatar">GS</span><span><strong>Gonzalo Chrisjacq Suárez García</strong><small>Compañero</small></span></div></article>
+        <article class="quote-card"><span class="quote-mark">“</span><p>Es una persona perseverante y con disposición para seguir aprendiendo sobre diseño y desarrollo de software.</p><div class="quote-by"><span class="avatar">FM</span><span><strong>Fidel Matos Casas</strong><small>Compañero</small></span></div></article>
+      </div>
+    </section>
+
+    <section class="contact section-wrap" id="contacto">
+      <div class="contact-intro"><p class="eyebrow">04 — CONTACTO</p><h2>¿Tienes una idea?<br><span>Conversemos.</span></h2><p>Escríbeme y cuéntame en qué estás trabajando.</p><a class="email-link" href="mailto:fidel.medina@tecsup.edu.pe">fidel.medina@tecsup.edu.pe <span>↗</span></a></div>
+      <form class="contact-form" id="contact-form">
+        <label>Tu nombre<input name="name" type="text" placeholder="¿Cómo te llamas?" autocomplete="name" required></label>
+        <label>Tu correo<input name="email" type="email" placeholder="nombre@correo.com" autocomplete="email" required></label>
+        <label>Asunto<input name="subject" type="text" placeholder="¿Sobre qué quieres hablar?" required></label>
+        <label>Mensaje<textarea name="message" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea></label>
+        <button class="button button-primary submit-button" type="submit">Preparar mensaje <span>↗</span></button>
+        <p class="form-note" id="form-status" role="status">Completa los campos y envía tu mensaje; aquí aparecerá la confirmación.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><a href="#inicio">VOLVER ARRIBA ↑</a><span>© Derechos reservados por Fidel Medina</span></footer>
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ejemplo de botón</title>
+</head>
+<body>
+  <main>
+    <h1>Ejemplo de evento</h1>
+    <p>Pulsa el botón para mostrar un anuncio.</p>
+    <button id="announcement-button" type="button">Mostrar anuncio</button>
+  </main>
+
+  <script>
+    const announcementButton = document.querySelector('#announcement-button');
+
+    announcementButton.addEventListener('click', () => {
+      alert('¡Anuncio! Gracias por visitar mi portafolio.');
+    });
+  </script>
+</body>
+</html>

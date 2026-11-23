@@ -1,0 +1,67 @@
+.testimonials {
+  background: #eaf0f7;
+}
+.quote-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 17px;
+}
+.quote-card {
+  position: relative;
+  background: #fff;
+  padding: 30px 25px;
+  min-height: 255px;
+  display: flex;
+  flex-direction: column;
+}
+.quote-mark {
+  font: 58px Georgia;
+  color: var(--blue);
+  line-height: .8;
+}
+.quote-card>p {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #45546a;
+  margin: 15px 0 28px;
+}
+.quote-by {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-top: auto;
+}
+.avatar {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #e5efff;
+  color: var(--blue);
+  font: 10px var(--mono);
+}
+.quote-by strong,.quote-by small {
+  display: block;
+}
+.quote-by strong {
+  font-size: 10px;
+}
+.quote-by small {
+  font-size: 9px;
+  color: #8a96a7;
+  margin-top: 4px;
+}
+.sample-label {
+  font: 8px var(--mono);
+  letter-spacing: .06em;
+  color: #a56a08;
+  background: #fff4d7;
+  padding: 6px 7px;
+  position: absolute;
+  right: 14px;
+  top: 15px;
+}
+.quote-example .quote-mark {
+  margin-top: 12px;
+}
